@@ -23,21 +23,27 @@ public class XPlugin : ModuleRules
         if (Target.Platform == UnrealTargetPlatform.IOS)
         {
             PrivateIncludePaths.Add("XPlugin/Private/IOS");
-            Definitions.Add("WITH_XPLUGIN=1");
+            // Definitions.Add("WITH_XPLUGIN=1");
+            PublicDefinitions.Add("WITH_XPLUGIN=1");
         }
         else if (Target.Platform == UnrealTargetPlatform.Android)
         {
             PrivateIncludePaths.Add("XPlugin/Private/Android");
-            Definitions.Add("WITH_XPLUGIN=1");
+            PublicDefinitions.Add("WITH_XPLUGIN=1");
         }
         else if (Target.Platform == UnrealTargetPlatform.Win64)
         {
             PrivateIncludePaths.Add("XPlugin/Private/Windows");
-            Definitions.Add("WITH_XPLUGIN=1");
+            PublicDefinitions.Add("WITH_XPLUGIN=1");
+        }
+        else if (Target.Platform == UnrealTargetPlatform.Mac)
+        {
+            PrivateIncludePaths.Add("XPlugin/Private/Mac");
+            PublicDefinitions.Add("WITH_XPLUGIN=1");
         }
         else
         {
-            Definitions.Add("WITH_XPLUGIN=0");
+            PublicDefinitions.Add("WITH_XPLUGIN=0");
         }
     }
 }
