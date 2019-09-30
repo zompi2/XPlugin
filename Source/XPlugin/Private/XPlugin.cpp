@@ -71,7 +71,7 @@ TSharedPtr<FXPluginImplBase> FXPluginModule::Get()
  
 	// Sanity check if everything was properly created
 	check(Singleton != nullptr);
-	check(ModuleImplPtr.IsValid() == true);
+	check(Singleton->ModuleImplPtr.IsValid() == true);
  
 	// Return the pointer to the module implementation.
 	return Singleton->ModuleImplPtr;
