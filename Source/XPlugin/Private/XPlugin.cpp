@@ -1,3 +1,5 @@
+// (c) 2017 Damian Nowakowski
+
 // Obligatory includes to make it all work
 #include "XPlugin.h"
 #include "XPluginImpl.h"

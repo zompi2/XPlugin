@@ -1,3 +1,5 @@
+// (c) 2017 Damian Nowakowski
+
 #include "XPluginComponent.h"
  
 // Definition of static variable so the linker will be satisfied.

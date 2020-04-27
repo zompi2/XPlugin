@@ -1,3 +1,5 @@
+// (c) 2017 Damian Nowakowski
+
 #include "XPluginBPLibrary.h"
 #include "XPlugin.h"
 

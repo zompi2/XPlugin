@@ -1,3 +1,4 @@
 # XPlugin
 
-This is a sample plugin used as an example for the article from my blog. This article can be found here: http://zompi.pl/multiplatform-plugins-in-unreal-engine-4
+This is an example plugin that shows how a multiplatform plugin can be implemented in Unreal Engine 4.  
+You can read more about it in this blog entry: https://damnow.blogspot.com/2017/12/multiplatform-plugins-in-unreal-engine-4.html

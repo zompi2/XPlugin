@@ -1,3 +1,5 @@
+// (c) 2017 Damian Nowakowski
+
 using UnrealBuildTool;
 
 public class XPlugin : ModuleRules

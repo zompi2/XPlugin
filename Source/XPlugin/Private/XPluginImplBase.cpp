@@ -1,3 +1,5 @@
+// (c) 2017 Damian Nowakowski
+
 #include "XPluginImplBase.h"
 #include "Engine/Engine.h"
 

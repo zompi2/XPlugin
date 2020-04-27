@@ -1,3 +1,5 @@
+// (c) 2017 Damian Nowakowski
+
 #pragma once
 
 #include "XPluginImplBase.h"
